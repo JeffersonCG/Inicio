@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>AlienLife</name>
+    <description>Game Alien Life</description>
+    <version>1.0.0.0</version>
+    <author>Jefferson Augusto</author>
+    <author-email>Jeffersonc_ag@hotmail.com</author-email>
+    <author-website>http://</author-website>
+    <app-id>com.senai.alienlife</app-id>
+    <unique-id>204464236bjbk</unique-id>
+    <saved-with-version>27700</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1280</width>
+        <height>720</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="animação" sid="415785689484013">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="512112063396449">
+                    <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="Pin" sid="513275805039493">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Parado" pingpong="0" repeatcount="1" repeatto="0" sid="744613582664628" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aluno03\Desktop\p1_stand.png">
+                        <collision-poly>
+                            <point x="0.151515" y="0.108696" />
+                            <point x="0.5" y="0" />
+                            <point x="0.848485" y="0.108696" />
+                            <point x="0.939394" y="0.5" />
+                            <point x="0.772727" y="0.836957" />
+                            <point x="0.5" y="0.902174" />
+                            <point x="0.166667" y="0.880435" />
+                            <point x="0.0454545" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="12" loop="0" name="Andando" pingpong="0" repeatcount="1" repeatto="0" sid="679932501718582" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aluno03\Desktop\p1_stand.png">
+                        <collision-poly>
+                            <point x="0.151515" y="0.108696" />
+                            <point x="0.5" y="0" />
+                            <point x="0.848485" y="0.108696" />
+                            <point x="0.939394" y="0.5" />
+                            <point x="0.772727" y="0.836957" />
+                            <point x="0.5" y="0.902174" />
+                            <point x="0.166667" y="0.880435" />
+                            <point x="0.0454545" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505155" original-source="C:\Users\Aluno03\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p1_walk\PNG\p1_walk01.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505155" original-source="C:\Users\Aluno03\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p1_walk\PNG\p1_walk02.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505155" original-source="C:\Users\Aluno03\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p1_walk\PNG\p1_walk03.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505155" original-source="C:\Users\Aluno03\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p1_walk\PNG\p1_walk04.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505155" original-source="C:\Users\Aluno03\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p1_walk\PNG\p1_walk05.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505155" original-source="C:\Users\Aluno03\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p1_walk\PNG\p1_walk06.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505155" original-source="C:\Users\Aluno03\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p1_walk\PNG\p1_walk07.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505155" original-source="C:\Users\Aluno03\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p1_walk\PNG\p1_walk08.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505155" original-source="C:\Users\Aluno03\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p1_walk\PNG\p1_walk09.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505155" original-source="C:\Users\Aluno03\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p1_walk\PNG\p1_walk10.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505155" original-source="C:\Users\Aluno03\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p1_walk\PNG\p1_walk11.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Pulando" pingpong="0" repeatcount="1" repeatto="0" sid="961288060490127" speed="5">
+                    <frame duration="1" hotspotX="0.507463" hotspotY="0.5" original-source="C:\Users\Aluno03\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p1_jump.png">
+                        <collision-poly>
+                            <point x="0.149254" y="0.106383" />
+                            <point x="0.492537" y="0" />
+                            <point x="0.850746" y="0.106383" />
+                            <point x="0.925373" y="0.5" />
+                            <point x="0.865672" y="0.904255" />
+                            <point x="0.492537" y="0.882979" />
+                            <point x="0.223881" y="0.840426" />
+                            <point x="0.0447761" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Caindo" pingpong="0" repeatcount="1" repeatto="0" sid="274967650777242" speed="5">
+                    <frame duration="1" hotspotX="0.507246" hotspotY="0.5" original-source="C:\Users\Aluno03\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p1_hurt.png">
+                        <collision-poly>
+                            <point x="0.15942" y="0.119565" />
+                            <point x="0.492754" y="0" />
+                            <point x="0.855072" y="0.108696" />
+                            <point x="0.942029" y="0.5" />
+                            <point x="0.913043" y="0.934783" />
+                            <point x="0.492754" y="0.98913" />
+                            <point x="0.231884" y="0.826087" />
+                            <point x="0.0869565" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Base" sid="270602037228000">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="691564339960978">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="670586520031531" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aluno03\Desktop\grassHalfMid.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.5" />
+                            <point x="0.571429" y="0.571429" />
+                            <point x="0.428571" y="0.571429" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Inimigo" sid="215870183884008">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="660120920497807">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="557377100771772" speed="5">
+                    <frame duration="1" hotspotX="0.509804" hotspotY="0.509804" original-source="C:\Users\Aluno03\Desktop\blockerMad.png">
+                        <collision-poly>
+                            <point x="0.0392157" y="0.0392157" />
+                            <point x="0.490196" y="0" />
+                            <point x="0.941176" y="0.0588235" />
+                            <point x="1" y="0.490196" />
+                            <point x="0.941176" y="0.941176" />
+                            <point x="0.490196" y="1" />
+                            <point x="0.0588235" y="0.941176" />
+                            <point x="0" y="0.490196" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Moeda" sid="658429503442631">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Rotate" sid="631249605524517">
+                    <behavior id="Rotate" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="331891594688089" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aluno03\Desktop\star.png">
+                        <collision-poly>
+                            <point x="0.4" y="0.4" />
+                            <point x="0.5" y="0.285714" />
+                            <point x="0.6" y="0.4" />
+                            <point x="0.7" y="0.5" />
+                            <point x="0.657143" y="0.657143" />
+                            <point x="0.5" y="0.685714" />
+                            <point x="0.342857" y="0.657143" />
+                            <point x="0.3" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Placar" sid="618722533465034">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="Pin" sid="699637193369858">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="Sprite" sid="104881265042181">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="499465354240350">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="993275638630920" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aluno03\Desktop\hill_largeAlt.png">
+                        <collision-poly>
+                            <point x="0.145833" y="0.0479452" />
+                            <point x="0.5" y="0" />
+                            <point x="0.854167" y="0.0479452" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="199554465016775">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="791160145308871" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aluno03\Desktop\flagRed.png">
+                        <collision-poly>
+                            <point x="0.0285714" y="0.0285714" />
+                            <point x="0.5" y="0.228571" />
+                            <point x="0.771429" y="0.228571" />
+                            <point x="0.657143" y="0.5" />
+                            <point x="0.571429" y="0.571429" />
+                            <point x="0.5" y="0.614286" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="blockerMad" sid="515136933593350">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="246031217441412" speed="5">
+                    <frame duration="1" hotspotX="0.509804" hotspotY="0.509804" original-source="C:\Users\Aluno03\Desktop\blockerMad.png">
+                        <collision-poly>
+                            <point x="0.0392157" y="0.0392157" />
+                            <point x="0.490196" y="0" />
+                            <point x="0.941176" y="0.0588235" />
+                            <point x="1" y="0.490196" />
+                            <point x="0.941176" y="0.941176" />
+                            <point x="0.490196" y="1" />
+                            <point x="0.0588235" y="0.941176" />
+                            <point x="0" y="0.490196" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="blockerMad2" sid="664356483011315">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="164874012282994" speed="5">
+                    <frame duration="1" hotspotX="0.509804" hotspotY="0.509804" original-source="C:\Users\Aluno03\Desktop\blockerMad.png">
+                        <collision-poly>
+                            <point x="0.0392157" y="0.0392157" />
+                            <point x="0.490196" y="0" />
+                            <point x="0.941176" y="0.0588235" />
+                            <point x="1" y="0.490196" />
+                            <point x="0.941176" y="0.941176" />
+                            <point x="0.490196" y="1" />
+                            <point x="0.0588235" y="0.941176" />
+                            <point x="0" y="0.490196" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Layout 1.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+    </event-folder>
+    <global-instances />
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
